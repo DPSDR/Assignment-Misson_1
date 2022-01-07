@@ -63,13 +63,22 @@ h2 {
 	width: 35%;
 }
 #mission-boxes {
-	border: 1px solid;
+	border-radius: 20px;
 	width: 40%;
 	margin-left: 3%;
 	padding: 25px 20px 20px 25px;
 }
 p {
 	line-height: 2em;
+}
+.mission {
+	background: #AAD9DF;
+}
+.visson {
+	background: #EFFFF2C4;
+}
+.goals {
+	background: #FFF4D6;
 }
 
 							/* Learning Without Limits Section */
@@ -117,4 +126,8 @@ p {
 
 .footer {
 	text-align: center;
+	background: #0000009e;
+	margin: 0;
+	padding: 2px;
+	color: #fff;
 }
