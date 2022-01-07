@@ -3,8 +3,9 @@ body {
     margin: 0;
 }
                                 /* Header Section */
-section {
+.flexible-container {
     display: flex;
+    margin-bottom: 50px;
 }
 .header_title_section {
 	border-left: 5px solid;
@@ -39,6 +40,16 @@ h1 {
 }
 
                             /* My Mission Section */
+.mission-container {
+	padding-left: 6%;
+	padding-right: 6%;
+}
 .illustrator {
-	width: 10%;
+	width: 35%;
+}
+#mission-boxes {
+	border: 1px solid;
+	width: 40%;
+	margin-left: 3%;
+	padding-left: 20px;
 }
