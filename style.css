@@ -5,7 +5,7 @@ body {
                                 /* Header Section */
 .flexible-container {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 .header_title_section {
 	border-left: 5px solid;
@@ -15,6 +15,9 @@ body {
 h1 {
     font-family: 'Merriweather', serif;
     font-size: 35px;
+}
+.colorful-h1 {
+	color: #3C3FD9;
 }
 .header_image{
 	width: 79%;
@@ -44,6 +47,10 @@ h1 {
 	padding-left: 6%;
 	padding-right: 6%;
 }
+.mission-h1 {
+	text-align: center;
+	margin-bottom: 60px;
+}
 .illustrator {
 	width: 35%;
 }
@@ -51,5 +58,8 @@ h1 {
 	border: 1px solid;
 	width: 40%;
 	margin-left: 3%;
-	padding-left: 20px;
+	padding: 25px 20px 20px 25px;
+}
+p {
+	line-height: 2em;
 }
