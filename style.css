@@ -1,6 +1,7 @@
 body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	background: linear-gradient(90deg, #2dcc5dcf, #3C3FD9C9);
 }
 								/* Header Section */
 								
@@ -15,7 +16,11 @@ body {
 }
 h1 {
     font-family: 'Merriweather', serif;
-    font-size: 35px;
+    font-size: 38px;
+}
+h2 {
+	font-family: 'Merriweather', serif;
+    font-size: 28px;
 }
 .colorful-h1 {
 	color: #3C3FD9;
@@ -82,7 +87,6 @@ p {
 
 							/* Working With Team Section */
 
-
 .work-with-team {
 	margin-left: 8%;
 }
@@ -93,4 +97,24 @@ p {
 .working-illustrator {
 	width: 80%;
 	padding-left: 6%;
+}
+
+							/* Global Warming Awarness */
+
+.global-warming-h1 {
+	text-align: center;
+	
+}							
+.global-warming-illustrator {
+	padding-left: 40%;
+}
+.global-warming-div {
+	padding-top: 2%;
+	padding-right: 10%;
+}
+
+							/* Footer */
+
+.footer {
+	text-align: center;
 }
