@@ -2,7 +2,8 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-                                /* Header Section */
+								/* Header Section */
+								
 .flexible-container {
     display: flex;
     margin-bottom: 80px;
@@ -21,11 +22,12 @@ h1 {
 }
 .header_image{
 	width: 79%;
-	margin-top: -10%;
-	margin-left: -10%;
+	margin-top: -5%;
 }
 .half-width {
 	width: 50%;
+}
+.header-margin-padding {
 	margin-left: 5%;
     padding-left: 5%;
     margin-top: 3%;
@@ -42,7 +44,8 @@ h1 {
     padding-top: 20px;
 }
 
-                            /* My Mission Section */
+							/* My Mission Section */
+							
 .mission-container {
 	padding-left: 6%;
 	padding-right: 6%;
@@ -62,4 +65,17 @@ h1 {
 }
 p {
 	line-height: 2em;
+}
+
+							/* Learning Without Limits Section */
+
+.learning-without-limits {
+	margin-right: 8%;
+}
+.learning-illustrator {
+	width: 60%;
+	padding-left: 32%;
+}
+.learning-div {
+	padding-top: 5%;
 }
